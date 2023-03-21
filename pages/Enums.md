@@ -9,12 +9,14 @@ TypeScript provides both numeric and string-based enums.
 We'll first start off with numeric enums, which are probably more familiar if you're coming from other languages.
 An enum can be defined using the `enum` keyword.
 
+It is a common convension to make enums uppercased, as they are constants.
+
 ```ts
-enum Direction {
-    Up = 1,
-    Down,
-    Left,
-    Right,
+enum EDirection {
+    UP = 1,
+    DOWN,
+    LEFT,
+    RIGHT,
 }
 ```
 
